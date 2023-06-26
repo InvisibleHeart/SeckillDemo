@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: local
+  cloud:
+    nacos:
+      config:
+        enabled: false
+      discovery:
+        server-addr: 127.0.0.1:8848
+        register-enabled: true
+  application:
+    name: DemoService
+  main:
+    allow-bean-definition-overriding: true
+logging:
+  level:
+    org.springframework.web: DEBUG
