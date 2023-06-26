@@ -1,2 +1,2 @@
 # SeckillDemo
-This is a simple learning engineering demo
+This is a simple learning project demo
